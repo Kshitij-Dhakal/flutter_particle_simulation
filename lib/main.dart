@@ -9,11 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Animated Particles',
+      title: 'Particles Simulation',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      onGenerateTitle: (context) => 'Flutter Particles Demo',
+      onGenerateTitle: (context) => 'Particles Simulation Flutter',
       home: AnimatedParticles(),
     );
   }
